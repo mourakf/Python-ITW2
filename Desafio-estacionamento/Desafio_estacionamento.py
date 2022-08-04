@@ -30,7 +30,7 @@ class Vehicle:
 
     def turn_off(self):
         if(self.velocity > 0):
-            for velocity in range(self.velocity):
+            while self.velocity > 0:
                 self.slow_down()
         self.connected = False
         return 'turned off'
