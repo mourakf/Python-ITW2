@@ -1,0 +1,4 @@
+Exercicio API:
+Construir uma API com os métodos GET e POST que simulam um cadastro de item com valor e quantidade em um banco de dados.
+Usar um vetor para adicionar o item do post e retor
+Endpoints: get(quantidade dos objetos) e post(postar os objetos)
