@@ -13,3 +13,4 @@ venv.bak/
 .cfg
 Lib/
 Scripts/
+pyvenv.cfg
