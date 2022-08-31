@@ -1,4 +1,3 @@
-from Vehicle import Vehicle
 from Car import Car
 from Motorcycle import Motorcycle
 
@@ -13,7 +12,6 @@ class Parking_lot():
 
 class Vaga():
     def __init__(self):
-        super().__init__()
         pass
 
     @property
