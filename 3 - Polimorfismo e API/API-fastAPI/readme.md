@@ -4,4 +4,5 @@ Criar uma virtual env
 4 - rodar o servidor: uvicorn main:app --reload
 5 - desligar o servidor: deactivate
 
-- Gerar requisitos pip freeze > requirements.txt
+- Gerar requisitos ```pip freeze > requirements.txt```
+- Executar o projeto em outra máquina ```pip install -r  requirements.txt```

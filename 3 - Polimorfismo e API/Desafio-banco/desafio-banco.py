@@ -51,14 +51,6 @@ class Conta_Bancaria:
         self._tem_cheque_especial = False
         self._cheque_especial = 0
 
-    # @property
-    # def agencia(self):
-    #     return self.agencia
-
-    # @agencia.setter
-    # def agencia(self, agencia):
-    #     self.agencia = agencia
-
     @property
     def titular(self):
         return self._titular
@@ -124,3 +116,14 @@ def client(cliente: Type[Cliente]):
 conta1 = Conta_Bancaria("Conta Corrente", 2239, 34930)
 cliente1 = Cliente("ayla", 54545, 3000, 'Mulher')
 client2 = Cliente("Rob", 54545, 3000, "Homem")
+conta1.deposito = 500
+conta1.deposito = 500
+b = client(cliente1)
+a = conta1.cheque_especial(1000, cliente1)
+print(a)
+print(conta1.cheque_especial_status())
+
+conta1.sacar(100)
+print(conta1.saldo)
+conta1.titular = cliente1.nome
+print(conta1.titular)
